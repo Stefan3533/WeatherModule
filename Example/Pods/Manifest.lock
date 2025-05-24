@@ -1,0 +1,16 @@
+PODS:
+  - WeatherModule (0.1.0)
+
+DEPENDENCIES:
+  - WeatherModule (from `../`)
+
+EXTERNAL SOURCES:
+  WeatherModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WeatherModule: d475de3544eaaa57d13b08617a3e334bdb266162
+
+PODFILE CHECKSUM: 63ec46d68e8cf850da9c15c4fef70d0fb4575e93
+
+COCOAPODS: 1.16.2

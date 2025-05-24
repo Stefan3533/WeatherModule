@@ -1,0 +1,22 @@
+{
+  "name": "WeatherModule",
+  "version": "0.1.0",
+  "summary": "A short description of WeatherModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/stefan/WeatherModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "stefan": "stefan@27industries.co.za"
+  },
+  "source": {
+    "git": "https://github.com/stefan/WeatherModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "WeatherModule/Classes/**/*"
+}

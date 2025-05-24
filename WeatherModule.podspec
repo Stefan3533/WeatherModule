@@ -9,34 +9,15 @@
 Pod::Spec.new do |s|
   s.name             = 'WeatherModule'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of WeatherModule.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.summary          = 'A SwiftUI WeatherModule.'
+  s.description      = 'A SwiftUI Weather View for iOS with basic weather information for a given location.'
 
   s.homepage         = 'https://github.com/stefan/WeatherModule'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'stefan' => 'stefan@27industries.co.za' }
   s.source           = { :git => 'https://github.com/stefan/WeatherModule.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '10.0'
-
+  s.frameworks = 'SwiftUI', 'Foundation', 'UIKit'
+  s.swift_version = '5.0'
+  s.ios.deployment_target = '13.0'
   s.source_files = 'WeatherModule/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'WeatherModule' => ['WeatherModule/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
