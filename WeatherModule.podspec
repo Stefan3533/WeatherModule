@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WeatherModule'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A SwiftUI WeatherModule.'
   s.description      = 'A SwiftUI Weather View for iOS with basic weather information for a given location.'
 
