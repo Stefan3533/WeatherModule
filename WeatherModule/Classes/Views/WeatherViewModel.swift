@@ -1,6 +1,7 @@
 import Foundation
 
-final class WeatherViewModel: ObservableObject {
+@MainActor
+internal final class WeatherViewModel: ObservableObject {
     @Published var weather: Weather?
     @Published var isLoading = true
     @Published var error: String?

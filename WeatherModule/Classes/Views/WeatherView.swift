@@ -1,13 +1,13 @@
 import SwiftUI
 
-struct WeatherView: View {
+public struct WeatherView: View {
     @StateObject private var viewModel: WeatherViewModel
     
-    init(apiKey: String, location: String) {
+   public init(apiKey: String, location: String) {
         _viewModel = StateObject(wrappedValue: WeatherViewModel(apiKey: apiKey, location: location))
     }
 
-    var body: some View {
+    public var body: some View {
         Group {
             if viewModel.isLoading {
                 ProgressView("Loading weather...")

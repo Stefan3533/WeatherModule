@@ -1,6 +1,6 @@
 import Foundation
 
-final class WeatherAPIClient {
+internal final class WeatherAPIClient {
     private let apiKey: String
     private let baseURL = "https://api.weatherapi.com/v1/current.json"
 

@@ -1,11 +1,11 @@
 import Foundation
 
-struct Weather: Codable {
+internal struct Weather: Codable {
     let location: Location
     let current: CurrentWeather
 }
 
-struct Location: Codable {
+internal struct Location: Codable {
     let name: String
     let region: String
     let country: String
@@ -15,7 +15,7 @@ struct Location: Codable {
     let localtime: String
 }
 
-struct CurrentWeather: Codable {
+internal struct CurrentWeather: Codable {
     let temp_c: Double
     let condition: Condition
     let wind_kph: Double
@@ -24,7 +24,7 @@ struct CurrentWeather: Codable {
     let uv: Double
 }
 
-struct Condition: Codable {
+internal struct Condition: Codable {
     let text: String
     let icon: String
     let code: Int
