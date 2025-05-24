@@ -46,7 +46,6 @@
 		8A199E0F0DB80A01223FE97A /* Pods-WeatherModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-WeatherModule_Example/Pods-WeatherModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		91C75F1F43CCE6A4522ABD25 /* Pods-WeatherModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherModule_Tests.release.xcconfig"; path = "Target Support Files/Pods-WeatherModule_Tests/Pods-WeatherModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C1779F7F8AA4F20DFA625EB1 /* WeatherModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WeatherModule.podspec; path = ../WeatherModule.podspec; sourceTree = "<group>"; };
-		C501CF9E2DE19AD4002A4F01 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		EDE153A1A1F69FC1016D3DA1 /* Pods-WeatherModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherModule_Example.release.xcconfig"; path = "Target Support Files/Pods-WeatherModule_Example/Pods-WeatherModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -73,7 +72,6 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				C501CF9D2DE19ACE002A4F01 /* Classes */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for WeatherModule */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -150,14 +148,6 @@
 				91C75F1F43CCE6A4522ABD25 /* Pods-WeatherModule_Tests.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		C501CF9D2DE19ACE002A4F01 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				C501CF9E2DE19AD4002A4F01 /* WeatherView.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		E776BF2DD5282B041FCCBC12 /* Frameworks */ = {
